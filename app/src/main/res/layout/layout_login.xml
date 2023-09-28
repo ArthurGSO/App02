@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left_arrow"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-25dp"
+        android:text="Login"
+        android:textColor="#F8F8FF"
+        android:textSize="20dp"
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:text="bandio"
+        android:textColor="#F8F8FF"
+        android:textSize="60dp"
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_person"
+        android:drawablePadding="8dp"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:maxLength="80"
+        android:padding="20sp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/key"
+        android:drawableEnd="@drawable/question"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp"
+        android:textColorHint="#fff"
+
+
+        />
+
+
+    <Button
+
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:background="#9c0000"
+        android:drawableBottom="@drawable/exit"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtSemConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Don't have an account? Sign Up"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp" />
+
+</LinearLayout>

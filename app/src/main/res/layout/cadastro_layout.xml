@@ -56,7 +56,7 @@
         android:drawableStart="@drawable/baseline_email"
         android:drawablePadding="8dp"
         android:hint="Email"
-        android:inputType="textPassword"
+        android:inputType="textEmailAddress"
         android:maxLength="80"
         android:textColorHint="#fff" />
 
@@ -82,7 +82,7 @@
         android:drawableStart="@drawable/gift"
         android:drawablePadding="8dp"
         android:hint="Birthday"
-        android:inputType="textPassword"
+        android:inputType="date"
         android:maxLength="80"
 
         android:textColorHint="#fff" />

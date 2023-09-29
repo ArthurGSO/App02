@@ -9,6 +9,7 @@
     tools:context=".Login_Activity">
 
     <ImageView
+        android:id="@+id/btnBackArrow2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -16,6 +17,7 @@
         android:src="@drawable/left_arrow" />
 
     <TextView
+        android:id="@+id/txtLogin2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -27,6 +29,7 @@
 
 
     <ImageView
+        android:id="@+id/imgLogo2"
         android:layout_width="150sp"
         android:layout_height="150sp"
         android:layout_gravity="center_horizontal"
@@ -64,8 +67,8 @@
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:drawableStart="@drawable/key"
         android:drawablePadding="8dp"
         android:hint="Password"
@@ -84,12 +87,11 @@
         android:hint="Birthday"
         android:inputType="date"
         android:maxLength="80"
-
         android:textColorHint="#fff" />
 
 
     <Button
-
+        android:id="@+id/btnLogin2"
         android:layout_width="260dp"
         android:layout_height="60dp"
         android:layout_marginLeft="70dp"

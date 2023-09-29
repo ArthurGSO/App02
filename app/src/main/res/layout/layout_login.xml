@@ -9,6 +9,7 @@
     tools:context=".Login_Activity">
 
     <ImageView
+        android:id="@+id/imgBackArrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/left_arrow"
@@ -17,6 +18,7 @@
         />
 
     <TextView
+        android:id="@+id/txtLogin"
         android:layout_marginLeft="140dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,6 +31,7 @@
 
 
     <TextView
+        android:id="@+id/txtLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -39,7 +42,7 @@
 
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -47,7 +50,7 @@
         android:layout_marginRight="20dp"
         android:drawableStart="@drawable/baseline_person"
         android:drawablePadding="8dp"
-        android:hint="User Name"
+        android:hint="Username"
         android:inputType="textPersonName"
         android:maxLength="80"
         android:padding="20sp"
@@ -72,7 +75,7 @@
 
 
     <Button
-
+        android:id="@+id/btnLogin"
         android:layout_width="260dp"
         android:layout_height="60dp"
         android:layout_marginLeft="70dp"
